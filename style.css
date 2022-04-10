@@ -1,0 +1,32 @@
+body{
+    background-color: darkred;
+}
+canvas{
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 38px blue;
+    }
+    to{
+        box-shadow: 5px 5px 38px yellow;
+    }
+}
+#sketches{
+    float: right;
+}
+h1{
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+label{
+    color:white;
+}
